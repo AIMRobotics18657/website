@@ -1,0 +1,27 @@
+{
+  "slug": "5-tips-to-improve-your-robot-score",
+  "title": "5 Tips To Improve Your Robot Score",
+  "author": "Nate",
+  "date": "2022-01-12",
+  "readTime": "2 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "When initially looking at the variety of ways to score, Freight Frenzy can seem daunting, but following these 5 tips will guarantee you some steady points:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "<strong><em>A flexible autonomous is best.</em></strong> When writing your autonomous code, try creating more than one opMode to allow the robot to score in many ways. Not only does this diversify your scoring potential, but it also allows your robot to partner nicely with others.",
+        "<strong><em>Focus on 1 way to score at a time.</em></strong> While at first trying to do as much as possible seems like it makes the most sense, with a deeper dive, we have found this to be false. Begin by perfecting one mechanism before moving on to the next. By doing this your robot will be consistent and the possibility for error decreases leading to a scoring increase.",
+        "<strong><em>Don&#x27;t be hesitant to change. </em></strong>During the competition, if your team notices trends of what you are doing well and poorly, try to change your game strategy to better suit the sections of the driving period that is succeeding. This also means adapting to your competition. Do not be afraid to try and play defense on the other team. Employ different strategies based on what is working to score the best!",
+        "<strong><em>Communicate with your teammate, they are there to help you!</em></strong> By planning ahead, you can avoid autonomous conflicts and prevent having an ineffective game strategy. Work with your teammate if you want to score more.",
+        "<strong><em>Don&#x27;t panic if things go wrong.</em></strong> Stay calm during the matches, if your team gets riled up, the chance of obtaining penalties increases. Stay calm by taking deep breaths and giving positive comments."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "You got this! Go and score higher than ever before!"
+    }
+  ]
+}

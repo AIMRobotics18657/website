@@ -1,0 +1,31 @@
+.hero { padding: clamp(56px, 8vw, 112px) 0 72px; gap: 40px; align-items: end; }
+.hero p { max-width: 46ch; }
+
+.list { display: flex; flex-direction: column; border-top: 1px solid var(--color-divider); }
+.sponsor {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: clamp(24px, 4vw, 64px); padding: 48px 0; border-bottom: 1px solid var(--color-divider); align-items: center;
+}
+.logoFrame { aspect-ratio: 16 / 9; padding: 24px; background: var(--color-bg); }
+.logo { position: relative; width: 100%; height: 100%; }
+.logo img { object-fit: contain; mix-blend-mode: multiply; }
+.visit { font-size: 14px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+
+.become { margin-top: 112px; }
+.becomeInner { padding: clamp(64px, 8vw, 112px) clamp(20px, 4vw, 56px); display: flex; flex-direction: column; gap: 48px; }
+.becomeHead { gap: 40px; align-items: end; }
+.becomeText { margin: 0; max-width: 46ch; font-size: 17px; line-height: 27px; color: var(--color-accent-100); }
+.funds {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  border-top: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+  border-left: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+}
+.fund {
+  padding: 28px; display: flex; flex-direction: column; gap: 10px;
+  border-right: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+}
+.fundNum { font-family: var(--font-heading); font-weight: 600; font-size: 40px; line-height: 1; color: var(--color-accent-400); }
+.fundTitle { font-family: var(--font-heading); font-weight: 600; font-size: 22px; text-transform: uppercase; }
+.fundBody { font-size: 15px; line-height: 23px; color: var(--color-accent-200); }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; }

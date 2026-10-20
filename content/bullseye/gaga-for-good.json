@@ -1,0 +1,104 @@
+{
+  "slug": "gaga-for-good",
+  "title": "Gaga for Good",
+  "author": "Amelia",
+  "date": "2023-01-16",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "Gaga, the game: a way to bring people together, have fun, and work toward a united goal. Two Fridays ago, that goal was fundraising for three charities - Engineers Without Borders, Girls Who Code, and Right to Play. We fundraised through ticket purchases and donations. All of the proceeds went straight to the organizations. We ended up absolutely crushing our goal! AIM Robotics is very proud to announce that we raised, in total, $1,500."
+    },
+    {
+      "type": "p",
+      "html": "For everyone who bought a ticket, we hosted a Gaga party-like event. We had dozens of people come through and help support these three great causes. We separated into teams (with pennies) and battled in games of Gaga, with each color representing a certain charity. We had pre-established the way the donation sum would be split based on who won: the first-place team’s charity got 50%, the second got 30%, and the third got 20%. We thought this would be a fun way to create a competitive edge to the Gaga games, while also making sure all organizations got a significant amount of donations."
+    },
+    {
+      "type": "p",
+      "html": "We had a ton of fun, with 2 full hours of intense Gaga games and (a lot of) cheers! The team member in charge of organizing the event, Dahlia, gave a wonderful speech."
+    },
+    {
+      "type": "p",
+      "html": "All in all, it was a super successful event, and we can’t wait to host another one!"
+    },
+    {
+      "type": "p",
+      "html": "Huge thank you to the Gaga center for letting us use their space and to everyone who donated! This would absolutely not be possible without you!"
+    },
+    {
+      "type": "p",
+      "html": "Enjoy these (never-before-seen) photos from the event:"
+    },
+    {
+      "type": "img",
+      "w": 1244,
+      "h": 828,
+      "src": "/images/bullseye/gaga-for-good/01.jpg"
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "/images/bullseye/gaga-for-good/02.jpg",
+          "w": 1600,
+          "h": 989
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/03.jpg",
+          "w": 1230,
+          "h": 736
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/04.jpg",
+          "w": 1228,
+          "h": 814
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/05.jpg",
+          "w": 1228,
+          "h": 772
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/06.jpg",
+          "w": 1600,
+          "h": 989
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/07.jpg",
+          "w": 1244,
+          "h": 828
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/08.jpg",
+          "w": 1600,
+          "h": 1051
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/09.jpg",
+          "w": 1600,
+          "h": 1075
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/10.jpg",
+          "w": 1600,
+          "h": 1041
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/11.jpg",
+          "w": 1600,
+          "h": 1013
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/12.jpg",
+          "w": 1600,
+          "h": 1047
+        },
+        {
+          "src": "/images/bullseye/gaga-for-good/13.jpg",
+          "w": 1600,
+          "h": 1050
+        }
+      ]
+    }
+  ]
+}

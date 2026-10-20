@@ -1,0 +1,5 @@
+.row {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline;
+  gap: 16px; margin-bottom: 12px;
+}
+.rule { height: 1px; background: var(--color-divider); }

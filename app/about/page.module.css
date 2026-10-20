@@ -1,0 +1,39 @@
+.heroInner {
+  padding: clamp(56px, 8vw, 112px) clamp(20px, 4vw, 56px);
+  gap: 40px; align-items: end;
+}
+.heroInner p { max-width: 52ch; }
+
+.photos {
+  padding: 96px 0 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 28px;
+}
+
+.drives { padding: 112px 0 0; gap: clamp(40px, 6vw, 96px); }
+
+.section { padding: 112px 0 0; }
+
+.depts { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.dept { padding: 28px; display: flex; flex-direction: column; gap: 12px; min-height: 200px; }
+.dept:hover { background: color-mix(in srgb, var(--color-accent) 7%, transparent); }
+.deptTitle { margin: 0; font-size: 28px; line-height: 1; text-transform: uppercase; }
+
+.timeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); }
+.event {
+  position: relative; display: flex; flex-direction: column; gap: 10px;
+  border-top: 1px solid var(--color-divider); padding: 28px 20px 32px 0;
+}
+.marker {
+  position: absolute; top: -6px; left: 0; width: 11px; height: 11px;
+  border: 1px solid var(--color-accent); background: var(--color-accent); transform: rotate(45deg);
+}
+.year { font-family: var(--font-heading); font-weight: 600; font-size: 30px; line-height: 1; color: var(--color-accent); }
+.eventTitle { font-family: var(--font-heading); font-weight: 600; font-size: 20px; line-height: 1.1; text-transform: uppercase; }
+.eventBody { font-size: 14px; line-height: 21px; color: color-mix(in srgb, var(--color-text) 75%, transparent); }
+
+.team { padding: 96px 0 112px; }
+.people { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 40px 28px; }
+.person { display: flex; flex-direction: column; gap: 12px; }
+.personText { display: flex; flex-direction: column; gap: 2px; }
+.name { font-family: var(--font-heading); font-weight: 600; font-size: 22px; text-transform: uppercase; letter-spacing: 0.03em; }
+.role { font-size: 14px; color: color-mix(in srgb, var(--color-text) 72%, transparent); }

@@ -1,0 +1,36 @@
+.hero { padding: clamp(56px, 8vw, 112px) 0 72px; display: flex; flex-direction: column; gap: 28px; }
+
+.what { gap: clamp(40px, 6vw, 96px); align-items: center; }
+.tight { letter-spacing: 0.08em; }
+.rule { height: 1px; background: var(--color-divider); }
+
+.section { padding: 112px 0 0; }
+
+.programs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); align-items: end; gap: 16px; }
+.program { padding: 22px; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; }
+.ours { border-color: var(--color-accent); }
+.ourTag { align-self: flex-start; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.age { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); }
+.programName { font-family: var(--font-heading); font-weight: 600; font-size: 24px; line-height: 1.05; text-transform: uppercase; }
+.programNote { font-size: 14px; line-height: 21px; color: color-mix(in srgb, var(--color-text) 75%, transparent); }
+
+.values { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.value { padding: 32px 28px; display: flex; flex-direction: column; gap: 12px; }
+.valueNum { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; color: var(--color-accent-700); }
+.valueTitle { margin: 0; font-size: clamp(30px, 3vw, 40px); line-height: 1; text-transform: uppercase; }
+
+.gp { margin-top: 112px; }
+.gpInner { padding: clamp(64px, 9vw, 128px) clamp(20px, 4vw, 56px); gap: clamp(40px, 6vw, 96px); }
+.gpText { margin: 0; font-size: 18px; line-height: 28px; color: var(--color-accent-100); }
+
+.voices { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 56px; }
+.voice { margin: 0; display: flex; flex-direction: column; gap: 20px; }
+.quote {
+  margin: 0; font-family: var(--font-heading); font-weight: 600;
+  font-size: clamp(24px, 2.4vw, 30px); line-height: 1.2; text-indent: -0.32em;
+}
+.who { margin: 0; font-size: 14px; color: color-mix(in srgb, var(--color-text) 70%, transparent); }
+
+.ctaSection { padding: 112px 0; }
+.ctaTitle { margin: 0; font-size: clamp(26px, 2.8vw, 34px); text-transform: uppercase; letter-spacing: 0.02em; }
+.ctaButtons { display: flex; flex-wrap: wrap; gap: 12px; }

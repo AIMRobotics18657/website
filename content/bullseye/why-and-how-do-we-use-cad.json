@@ -1,0 +1,35 @@
+{
+  "slug": "why-and-how-do-we-use-cad",
+  "title": "Why and How Do We Use CAD?",
+  "author": "Ethan",
+  "date": "2022-11-28",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "At AIM Robotics, we use CAD (Computer Aided Design) to prototype our designs before committing to a physical process."
+    },
+    {
+      "type": "p",
+      "html": "When creating a CAD design, we identify a necessary function and brainstorm how to execute it. Once a method is found, we design its physical aspect on paper or CAD. Although more time-consuming, we prefer to use CAD using a computer to improve the quality of our builds in real life by drafting on the computer with greater freedom. In preparation for competitions, CAD is useful to demonstrate our design process, as even if the part built in CAD no longer exists in real life, it can be easily shown online."
+    },
+    {
+      "type": "p",
+      "html": "Here&#x27;s an example of what an early completed CAD design looks like!"
+    },
+    {
+      "type": "img",
+      "w": 1058,
+      "h": 1048,
+      "src": "/images/bullseye/why-and-how-do-we-use-cad/01.jpg"
+    },
+    {
+      "type": "p",
+      "html": "The completion of a design in CAD enables us to access the build at any time, and, when given access to a 3D printer, to create multiple copies of a specific design."
+    },
+    {
+      "type": "p",
+      "html": "Some benefits of CAD replacing manual design drafting are allowing design development, alteration, and optimization. Using CAD allows our team to create accurate design representations before committing to a physical model and store designs we can laser and 3d print. 3D modeling aids our design development by constructing an accurate virtual representation of a structure before committing to a physical plan. The virtual model helps test how well a new mechanism will integrate into the robot."
+    }
+  ]
+}

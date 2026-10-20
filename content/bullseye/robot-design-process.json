@@ -1,0 +1,25 @@
+{
+  "slug": "robot-design-process",
+  "title": "Our Robot Design Process!",
+  "author": "Kai",
+  "date": "2021-10-20",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "At the start of every season, we always reflect on our robot the previous year and lay out our goals for the current year. We’ve found that <strong>iterating the previous year’s design process</strong> is just as important as <strong>coming up with a new design.</strong> We first look at what we did well, and then what we needed to improve."
+    },
+    {
+      "type": "p",
+      "html": "In our first meeting, we discussed the fact that last year we incorrectly thought about the order of design. Instead of thinking of the robot&#x27;s system as a whole, we separately built specific attachments and pieced them together later on. This gave us unsatisfactory results because we did not plan ahead how each of the components would fit together."
+    },
+    {
+      "type": "p",
+      "html": "This year, we plan on brainstorming how the whole robot will work before making parts of it independently. With our <a href=\"https://nate554.wixsite.com/aim-robotics/about-us\"><strong>new head of CAD design</strong></a>, we are constantly creating online images of our robot. This has greatly impacted our design process and has helped the mechanics department create more accurate iterations of our robot."
+    },
+    {
+      "type": "p",
+      "html": "Ever since our team began only four years ago, we’ve learned lots of valuable lessons. Every year, we intend to use our experiences to grow bigger. This season has just begun and we are so excited to continue building our robot in the future."
+    }
+  ]
+}

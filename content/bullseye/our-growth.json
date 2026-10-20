@@ -1,0 +1,17 @@
+{
+  "slug": "our-growth",
+  "title": "Our Growth",
+  "author": "Dahlia",
+  "date": "2021-11-10",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "Although we had a successful season last year, AIM Robotics got off to a rocky start. Our team began in September of 2020. Because of Covid, we had to meet fully online until our first qualifier. As a rookie team this was incredibly difficult. Each member bought their own REV EDU kit and built mechanisms at home. As the first qualifier drew near, a group of two or three people would meet in someone&#x27;s apartment and construct the actual robot. However, most of us stayed in our homes and worked separately on our own parts of the team. This was an unorganized and ineffective way of doing things. We had barely any knowledge of CAD and no real plan of what the robot would look like as a whole. Individually, all of our mechanisms worked, but they didn’t work together. Working alone the whole year, we had one robot built out of many different parts, but not many different parts creating one robot."
+    },
+    {
+      "type": "p",
+      "html": "Last season taught us the importance of organization. We have learned to think about how the robot works as one, rather than a group of mechanisms. AIM Robotics now has a CAD and design department. This department works closely with the mechanics team to make sure they have a plan before they build. We have also constructed two identical drive bases so the programming team can work at the same time as mechanics. Finally, AIM Robotics has started meeting at a place donated by one of our sponsors, <a href=\"https://www.gagacenter.com/nyc/\">The Gaga Center</a>. We look forward to our first fully in person season and can not wait to see what comes next."
+    }
+  ]
+}

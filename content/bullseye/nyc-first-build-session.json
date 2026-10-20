@@ -1,0 +1,13 @@
+{
+  "slug": "nyc-first-build-session",
+  "title": "NYC First Build Session!",
+  "author": "Dahlia",
+  "date": "2021-11-22",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "On Sunday November 14th, AIM Robotics attended the first build session this season at the Cornell Tech STEM Center. It was a great opportunity to test and iterate our robot as well as make new connections with other teams. By talking to others and seeing their robots we thought of new ways to improve our own. We met with Yoav who gave us advice on outreach and how to find new sponsors. Our head of CAD, Felix, designed and printed our capping element using the center&#x27;s state of the art 3D printers. At one point in our robot testing, the string on our linear lift snapped. Team 17522, Project Synthesis, was nice enough to give us a new one. We have since kept in contact with them and played with them at a scrimmage we attended. We look forward to meeting with Project Synthesis again soon. Towards the end of the build session, we gave a presentation on game strategy. AIM Robotics can not wait to go back to the STEM Center! Please check out the gallery section of this site for photos of the event."
+    }
+  ]
+}

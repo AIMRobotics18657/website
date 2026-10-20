@@ -1,0 +1,47 @@
+{
+  "slug": "lessons-learned-in-2021",
+  "title": "Lessons Learned in 2021",
+  "author": "Ellie",
+  "date": "2022-01-01",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "<strong>We all have learned a lot from this past year. Here are some highlights:</strong>"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Evenness matters a lot even if it&#x27;s only by a little difference.",
+        "Think before you screw a screw on.",
+        "Organization is key.",
+        "Have patience and be patient with your work.",
+        "It is so important to follow every single step.",
+        "It is so important to make sure you have a good foundation for your work.",
+        "Try not to get very frustrated because being annoyed won’t help solve challenges.",
+        "Details really matter.",
+        "Positive attitude is the way to go.",
+        "Help each other out.",
+        "You won’t know what will work well if you don’t try.",
+        "Be careful with your work.",
+        "If you work hard you will have success.",
+        "Teamwork makes the dreamwork.",
+        "You don&#x27;t need the exact pieces to build something.",
+        "If you focus you will get things done faster.",
+        "Test along the way while you are building something.",
+        "Stay organized.",
+        "Stay focused.",
+        "Hard work pays off.",
+        "You sometimes have to destroy your work to build new things.",
+        "You don&#x27;t always have to create the perfect replica.",
+        "Think before you speak.",
+        "Make sure to keep all of your work really neat.",
+        "If you work with your whole team you will have better ideas."
+      ]
+    },
+    {
+      "type": "p",
+      "html": "<strong>We hope we are able to learn even more incredible lessons in 2022! We are so excited for our qualifier in a few weeks and finals in March!</strong>"
+    }
+  ]
+}

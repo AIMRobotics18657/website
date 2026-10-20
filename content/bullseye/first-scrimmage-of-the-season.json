@@ -1,0 +1,31 @@
+{
+  "slug": "first-scrimmage-of-the-season",
+  "title": "FIRST (😁) Scrimmage of the Season",
+  "author": "Amelia",
+  "date": "2022-10-24",
+  "readTime": "2 min read",
+  "blocks": [
+    {
+      "type": "img",
+      "w": 1284,
+      "h": 720,
+      "src": "/images/bullseye/first-scrimmage-of-the-season/01.jpg"
+    },
+    {
+      "type": "p",
+      "html": "The air’s getting crisper, the leaves are falling and your mom keeps reminding you to wear a jacket before leaving home. It’s upon us again - FTC Season. Debatably, it never ended. With qualifiers less than a month away, we needed to get some experience under our belts for the season. We had the opportunity to attend this scrimmage last Saturday, October 15, hosted by The Browning School. We went across the pond (Central Park) and showed up."
+    },
+    {
+      "type": "p",
+      "html": "While I personally could not attend, I got a <em>very</em> detailed interview about the scrimmage with longtime AIM member and FTC veteran Daniel. But we all just call him Blauner. Walking into the scrimmage, Blauner had a lot going through his head. Not only was he carrying those heavy orange boxes, but he was reminiscing about his previous seasons of FTC. Upon entry, he realized “I’m back…this is it. We’re starting again.” The smells and sounds in particular stirred his memory. “The smells of robot competition are genuinely crazy to me. You smell all the cutting of the metal and the wood burning of the 3D printing and laser cutting.” It revoked a “lot of joy and excitement” for Blauner. One thing he doesn’t forget from these competitions is the connections he has made. Blauner loves walking into those competitions. He’s getting to see old friends that he hasn’t seen in months. No one’s surprised to see him saying “What’s up, how’ve you guys been?” to parents or someone he recognizes. According to Blauner, making <em>new</em> connections is a critical part of scrimmages. Even if those new friends end up doing better than him, Blauner is still happy to help them out."
+    },
+    {
+      "type": "p",
+      "html": "While scrimmages are super fun socially, we also had a good time testing out our robot. Our team learned a lot about the game and our mechanics. We recognized points of weakness and are making adjustments accordingly. One example is the robot’s drive. We ran into the ground junctions multiple times, so we are finding ways to fix that. Blauner and another FTC veteran Nate enthusiastically agreed that they turned down the dead zones in driving."
+    },
+    {
+      "type": "p",
+      "html": "Overall, we learned a lot, and for many, it was a real reminder that the season has begun."
+    }
+  ]
+}

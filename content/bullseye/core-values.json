@@ -1,0 +1,25 @@
+{
+  "slug": "core-values",
+  "title": "Core Values",
+  "author": "Dahlia",
+  "date": "2021-11-03",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "People constantly ask me, <em>“What makes robotics fun?” “Why would you want to work hours for something you are getting no school credit for?” </em>To them I would answer with two specific reasons:"
+    },
+    {
+      "type": "p",
+      "html": "Number one, I love the work. I am passionate about STEM and think that building and programming robots is super cool."
+    },
+    {
+      "type": "p",
+      "html": "Number two, I love the people I’m working with. Core Values has taught that hard work seems a lot easier when you are doing it with your friends. At the end of every practice AIM Robotics does a short team building activity. Although this takes some time out of our practice, it is beneficial in the long run because it improves our productivity."
+    },
+    {
+      "type": "p",
+      "html": "In FTC, no one is working alone, it is always a team effort."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+/* ── Hero ─────────────────────────────────────────── */
+.heroInner {
+  padding: clamp(56px, 8vw, 104px) clamp(20px, 4vw, 56px) clamp(56px, 7vw, 96px);
+  display: flex; flex-direction: column; gap: 48px;
+}
+.heroTop { gap: 32px; align-items: end; }
+.subtitle {
+  font-family: var(--font-heading); font-weight: 600; font-size: clamp(26px, 2.6vw, 36px);
+  line-height: 1.05; text-transform: uppercase; color: var(--color-accent-400);
+}
+.videoFrame { margin: 0; position: relative; border: 1px solid color-mix(in srgb, var(--color-accent-400) 35%, transparent); }
+.video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--color-accent-900); }
+.tick { position: absolute; z-index: 1; width: 11px; height: 11px; border: 0 solid var(--color-accent-300); }
+.tl { top: -6px; left: -6px; border-left-width: 1px; border-top-width: 1px; }
+.tr { top: -6px; right: -6px; border-right-width: 1px; border-top-width: 1px; }
+.bl { bottom: -6px; left: -6px; border-left-width: 1px; border-bottom-width: 1px; }
+.br { bottom: -6px; right: -6px; border-right-width: 1px; border-bottom-width: 1px; }
+.caption {
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 12px;
+  font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--color-accent-300);
+}
+
+/* ── Exploded view ────────────────────────────────── */
+.track { position: relative; height: 420vh; }
+.stage {
+  position: sticky; top: 66px; height: calc(100vh - 66px); overflow: hidden;
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--color-text) 5%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-text) 5%, transparent) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.stageInner {
+  max-width: 1280px; height: 100%; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px);
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 24px; align-items: center;
+}
+.stepCopy { display: flex; flex-direction: column; gap: 20px; min-width: 0; position: relative; z-index: 1; }
+.progress { display: flex; gap: 6px; }
+.bar, .barOn { flex: 1; height: 3px; transition: background 0.3s; }
+.bar { background: var(--color-divider); }
+.barOn { background: var(--color-accent); }
+.stepCount {
+  font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: 0.12em;
+  color: var(--color-accent-700);
+}
+.stepText { display: flex; flex-direction: column; gap: 20px; }
+.stepTitle { margin: 0; font-size: clamp(36px, 4.4vw, 64px); line-height: 0.95; text-transform: uppercase; }
+.stepBody {
+  margin: 0; max-width: 40ch; font-size: 17px; line-height: 27px;
+  color: color-mix(in srgb, var(--color-text) 78%, transparent);
+}
+.stepSpecs { display: flex; flex-direction: column; border-top: 1px solid var(--color-divider); }
+.stepSpec {
+  display: flex; justify-content: space-between; gap: 12px; padding: 10px 0;
+  border-bottom: 1px solid var(--color-divider); font-size: 14px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.stepSpecValue {
+  font-family: var(--font-heading); font-weight: 600; font-size: 17px; letter-spacing: 0.04em;
+  color: var(--color-text);
+}
+.hint {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 60%, transparent);
+}
+.modelCol { position: relative; height: 100%; min-width: 0; display: grid; align-items: center; }
+.model { position: absolute; inset: 4% -8% 4% 0; cursor: grab; }
+
+/* On narrow screens, stack the model under the text inside the sticky stage */
+@media (max-width: 760px) {
+  .stageInner { grid-template-columns: 1fr; grid-template-rows: auto 1fr; padding-top: 24px; gap: 12px; }
+  .stepCopy { gap: 12px; }
+  .stepTitle { font-size: 34px; }
+  .stepBody { font-size: 15px; line-height: 23px; }
+  .model { inset: 0; }
+}
+
+/* ── Spec sheet ───────────────────────────────────── */
+.section { padding: 112px 0 0; }
+.sectionLg { padding: 128px 0 0; }
+.sheetHead {
+  display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--color-divider);
+  font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.sheetTitle { flex: 1; min-width: 18ch; padding: 12px 24px; }
+.sheetMeta {
+  padding: 12px 24px; border-left: 1px solid var(--color-divider);
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.sheet { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.sheetCell {
+  padding: 24px; display: flex; flex-direction: column; gap: 8px;
+  border-right: 1px solid color-mix(in srgb, var(--color-text) 8%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-text) 8%, transparent);
+}
+.sheetValue {
+  font-family: var(--font-heading); font-weight: 600; font-size: clamp(30px, 3vw, 40px);
+  line-height: 1; font-feature-settings: "tnum" 1;
+}
+.sheetKey { font-size: 14px; color: color-mix(in srgb, var(--color-text) 72%, transparent); }
+.sheetNote { margin: 0; padding: 12px 24px; font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent); }
+
+/* ── Pipeline ─────────────────────────────────────── */
+.networkHead {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end;
+  gap: 24px; margin-bottom: 48px;
+}
+.pipeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 28px; }
+.stage4 { padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.stageTop { display: flex; justify-content: space-between; align-items: center; }
+.stageNum { font-family: var(--font-heading); font-weight: 600; font-size: 44px; line-height: 1; color: var(--color-accent); }
+.stageTitle { margin: 0; font-size: 24px; text-transform: uppercase; letter-spacing: 0.03em; }
+.stageTech { margin-top: auto; letter-spacing: 0.1em; }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 40px; }
+
+/* ── LEGO base ────────────────────────────────────── */
+.fll { padding: 128px 0 0; gap: clamp(40px, 6vw, 96px); align-items: center; }
+.stlFrame { position: relative; aspect-ratio: 1; min-height: 320px; display: grid; place-items: center; }
+.stlViewer { position: absolute; inset: 0; cursor: grab; }
+.figLabel {
+  position: absolute; top: 14px; left: 16px; pointer-events: none;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.download {
+  align-self: flex-start; margin-top: 20px;
+  font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 11px 18px; text-decoration: none;
+}
+
+/* ── Join ─────────────────────────────────────────── */
+.join { padding: 128px 0 112px; }
+.joinTitle { margin: 0; font-size: clamp(28px, 3.2vw, 42px); line-height: 1; text-transform: uppercase; }

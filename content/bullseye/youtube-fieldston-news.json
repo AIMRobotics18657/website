@@ -1,0 +1,33 @@
+{
+  "slug": "youtube-fieldston-news",
+  "title": "Youtube + Fieldston News!",
+  "author": "The AIM Editors",
+  "date": "2023-03-04",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "We&#x27;re one day away from Finals! Here are two special AIM treats for your countdown:"
+    },
+    {
+      "type": "p",
+      "html": "Youtube Video made by our talented scouter and video editor Gideon! We vlogged all of Super qualifiers 2 - enjoy the ride!"
+    },
+    {
+      "type": "youtube",
+      "id": "0NLwn3Lj2fU"
+    },
+    {
+      "type": "p",
+      "html": "We also got featured in the Fieldston News in a great article by Fieldston student Alkis! Thank you Alkis!"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://fieldstonnews.com/home/2023/03/aim-robotics-and-their-journey-to-the-nyc-finals/\">https://fieldstonnews.com/home/2023/03/aim-robotics-and-their-journey-to-the-nyc-finals/</a>"
+    },
+    {
+      "type": "p",
+      "html": "We hope you enjoy these inside looks into the AIM Family!"
+    }
+  ]
+}

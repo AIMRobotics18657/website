@@ -1,0 +1,21 @@
+{
+  "slug": "faimily",
+  "title": "fAIMily",
+  "author": "Dahlia Zem",
+  "date": "2023-02-27",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "A lot can change is three years, but the bonds on AIM have stayed the same. As our robot went from a janky mix of hot glue and zip ties, to a slightly more artistic mix of hot glue and zip ties our team developed from friendship to a family."
+    },
+    {
+      "type": "p",
+      "html": "As finals are approaching we have been reflecting on what AIM means to us. AIM is more than constructing lifts and perfecting autos. AIM is team dinners, midnight zip tie runs, or karaoke in the STEM center."
+    },
+    {
+      "type": "p",
+      "html": "For the past three years we have spent over 750 hours working together. This time is what makes us a united team. We have watched each member of our team grow and mature into the thinker they are today. Although our team is separated into departments like the mechanics our outreach, we have learned that the only way to succeed is by working together and supporting one another."
+    }
+  ]
+}

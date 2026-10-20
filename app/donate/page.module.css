@@ -1,0 +1,16 @@
+.heroInner { padding: clamp(64px, 9vw, 128px) clamp(20px, 4vw, 56px); gap: 48px; align-items: center; }
+.heroInner p { max-width: 46ch; }
+.ctas { display: flex; flex-wrap: wrap; gap: 14px; }
+.big { font-size: 16px; letter-spacing: 0.06em; text-transform: uppercase; padding: 15px 26px; text-decoration: none; }
+
+.uses { display: flex; flex-direction: column; border-top: 1px solid color-mix(in srgb, var(--color-bg) 22%, transparent); }
+.use {
+  display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 16px; padding: 22px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-bg) 22%, transparent);
+}
+.useNum { font-family: var(--font-heading); font-weight: 600; font-size: 32px; line-height: 1; color: var(--color-accent-400); }
+.useText { display: flex; flex-direction: column; gap: 4px; }
+.useTitle { font-family: var(--font-heading); font-weight: 600; font-size: 24px; text-transform: uppercase; }
+.useBody { font-size: 15px; line-height: 23px; color: var(--color-accent-200); }
+
+.otherTitle { margin: 0; font-size: clamp(26px, 3vw, 38px); line-height: 1; text-transform: uppercase; }

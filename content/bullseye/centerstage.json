@@ -1,0 +1,33 @@
+{
+  "slug": "centerstage",
+  "title": "Centerstage!",
+  "author": "The AIM Editors",
+  "date": "2023-11-03",
+  "readTime": "2 min read",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "We have had a great start to our 2023-2024 robotics season! Here are some reflections about Centerstage so far from new team members."
+    },
+    {
+      "type": "p",
+      "html": "<strong>Ryan:</strong>"
+    },
+    {
+      "type": "quote",
+      "html": "At first, I was a little nervous about joining a team full of juniors and people I didn&#x27;t know. But as time went on, I was pleasantly surprised as I felt that I was part of the team. The team has been very fun and welcoming, and I have learned a lot. Kai has taught me how to wire, and Nate has taught me the general basis of how the code works for moving the robot. I have also learned how the robot works and what the mechanics are. Overall, I have greatly enjoyed my time on the team and look forward to going to the tournaments and working with the team!"
+    },
+    {
+      "type": "p",
+      "html": "<strong>Julian:</strong>"
+    },
+    {
+      "type": "quote",
+      "html": "As a new member of our FTC (First Tech Challenge) team, my journey into the world of programming has been both exciting and enlightening. In a relatively short span of time, I have absorbed a wealth of knowledge related to Java and robotics. Navigating the intricate terrain of Android Studio and Road Runner, I&#x27;ve come to understand the intricacies of these essential tools. I&#x27;ve also delved into concepts like enumerators and explored the functionalities of our robot&#x27;s subsystems, including the fascinating paper airplane launcher, versatile arm, and efficient outtake mechanism. The hands-on experience in the field of robotics has been nothing short of incredible, from attending scrimmages to immersing myself in our supportive community. It&#x27;s heartening to find a community that is not only inviting but also genuinely positive and eager to support one another, making my journey into the world of FTC truly enjoyable."
+    },
+    {
+      "type": "p",
+      "html": "Stay tuned for exciting updates and future blog posts!"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "the-cad-process",
+  "title": "The CAD Process",
+  "author": "Felix",
+  "date": "2022-01-19",
+  "readTime": "1 min read",
+  "blocks": [
+    {
+      "type": "h",
+      "text": "The CAD making process is quite simple."
+    },
+    {
+      "type": "p",
+      "html": "First, you start a new document."
+    },
+    {
+      "type": "img",
+      "w": 1600,
+      "h": 978,
+      "src": "/images/bullseye/the-cad-process/01.jpg"
+    },
+    {
+      "type": "img",
+      "w": 1242,
+      "h": 1485,
+      "src": "/images/bullseye/the-cad-process/02.jpg"
+    },
+    {
+      "type": "p",
+      "html": "You import your parts, and you begin the long tedious process of assembling everything. There are many websites and sources where you can import parts."
+    },
+    {
+      "type": "p",
+      "html": "This is main part of CAD, putting it together. Anyone could do it, it’s knowledge and experience that makes it more efficient."
+    }
+  ]
+}

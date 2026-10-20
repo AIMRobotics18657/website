@@ -1,0 +1,48 @@
+body { margin: 0; text-wrap: pretty; }
+
+a { color: var(--color-accent-700); }
+a:not(.btn):hover { color: var(--color-accent-800); }
+
+/* Uppercase CTA buttons used across the site */
+.btn-caps {
+  font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 13px 22px; text-decoration: none;
+}
+/* Primary button on the dark navy sections */
+.btn-signal,
+.btn-signal:hover,
+.btn-signal:active {
+  color: var(--color-bg);
+  background: var(--color-accent-600);
+  border-color: var(--color-accent-400);
+}
+.btn-signal > .corner { color: var(--color-accent-300); }
+/* Outline button on the dark navy sections */
+.btn-outline-light {
+  color: var(--color-bg);
+  border-color: color-mix(in srgb, var(--color-bg) 35%, transparent);
+}
+.btn-outline-light:hover { background: color-mix(in srgb, var(--color-bg) 10%, transparent); }
+
+.eyebrow {
+  font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--color-accent-700);
+}
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* Motion. The `js` class is set on <html> by an inline script before first paint,
+   so content stays visible when JavaScript is off. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal { opacity: 0; transform: translateY(28px); }
+  .js .reveal.is-visible {
+    opacity: 1; transform: none;
+    transition:
+      opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--reveal-delay, 0ms),
+      transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--reveal-delay, 0ms);
+  }
+  .js .scramble:not(.is-running) { visibility: hidden; }
+}
